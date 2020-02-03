@@ -47,7 +47,7 @@ LB_DEBIAN_INSTALLER="false"
 
 # $LB_DEBIAN_INSTALLER_DISTRIBUTION: set debian-installer suite
 # (Default: empty)
-LB_DEBIAN_INSTALLER_DISTRIBUTION="buster"
+LB_DEBIAN_INSTALLER_DISTRIBUTION="testing"
 
 # $LB_DEBIAN_INSTALLER_PRESEEDFILE: set debian-installer preseed filename/url
 # (Default: )
@@ -78,16 +78,16 @@ LB_HDD_PARTITION_START=""
 LB_ISO_APPLICATION="Debian Live"
 
 # $LB_ISO_PREPARER: set iso preparer
-# (Default: live-build $VERSION; https://salsa.debian.org/live-team/live-build)
-LB_ISO_PREPARER="live-build $VERSION; https://salsa.debian.org/live-team/live-build"
+# (Default: live-build 1:20191221; https://salsa.debian.org/live-team/live-build)
+LB_ISO_PREPARER="live-build 1:20191221; https://salsa.debian.org/live-team/live-build"
 
 # $LB_ISO_PUBLISHER: set iso publisher
 # (Default: Live Systems project; https://wiki.debian.org/DebianLive; debian-live@lists.debian.org)
 LB_ISO_PUBLISHER="Live Systems project; https://wiki.debian.org/DebianLive; debian-live@lists.debian.org"
 
 # $LB_ISO_VOLUME: set iso volume (max 32 chars)
-# (Default: Debian buster $(date +%Y%m%d-%H:%M))
-LB_ISO_VOLUME="Debian buster $(date +%Y%m%d-%H:%M)"
+# (Default: Debian buster 20200203-14:27)
+LB_ISO_VOLUME="Debian buster 20200203-14:27"
 
 # $LB_JFFS2_ERASEBLOCK: set jffs2 eraseblock size
 # (Default: unset)
