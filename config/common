@@ -119,7 +119,7 @@ LB_TASKSEL="apt"
 # Internal stuff (FIXME)
 APT_OPTIONS="--yes"
 APTITUDE_OPTIONS="--assume-yes"
-DEBOOTSTRAP_OPTIONS="--include=apt-transport-https,ca-certificates"
+DEBOOTSTRAP_OPTIONS="--variant=minbase --include=apt-transport-https,ca-certificates"
 DEBOOTSTRAP_SCRIPT=""
 GZIP_OPTIONS="-6  --rsyncable"
 ISOHYBRID_OPTIONS=""
